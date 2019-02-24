@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<scroll-view scroll-y class="container">
+  <image class='headImg' src='/images/title.png'></image>
+  <text class='bigName'>{{myName}}</text>
+  <text class='bigAddress'>{{myAddress}}</text>
+  <view class='line line1'></view>
+  <text class='text1 text'>项目管理团队</text>
+  <view class='xiline xiline1'></view>
+  <view class='listbox'>
+    <block wx:for="{{list}}">
+      <view class='peopleBox'>
+        <image class='headUrl' src='/images/headImg.png' mode='widthFix'></image>
+        <text class='post'>销售人员</text>
+        <text class='name'>孙某某</text>
+      </view>
+    </block>
+  </view>
+  <view class='line line2'></view>
+  <view class='box2'>
+    <text class='text2 text'>安装计划</text>
+    <button class='chooseOrder'>点击选择订单</button>
+  </view>
+  <view class='xiline xiline2'></view>
+  <view class='listbox'>
+    <view class='anzhuangBox' bindtap='yuyue'>
+      <image class='anzhuangUrl' src='/images/an1.png' mode='widthFix'></image>
+      <text class='post1'>安装预约</text>
+    </view>
+    <view class='anzhuangBox' bindtap='install'>
+      <image class='anzhuangUrl' src='/images/an2.png' mode='widthFix'></image>
+      <text class='post1'>上门安装</text>
+    </view>
+    <view class='anzhuangBox' bindtap='signFor'>
+      <image class='anzhuangUrl' src='/images/an3.png' mode='widthFix'></image>
+      <text class='post1'>安装签收</text>
+    </view>
+    <view class='anzhuangBox' bindtap='evaluate'>
+      <image class='anzhuangUrl' src='/images/an4.png' mode='widthFix'></image>
+      <text class='post1'>满意度调查</text>
+    </view>
+  </view>
+</scroll-view>
+
+<view class='bar_box'>
+  <image class='barBg' src='/images/barBg.png'></image>
+  <view class='indexBox' bindtap='goIndex'>
+    <image class="bar bar1" src="/images/{{bar1 ? 'barBg1_2' : 'barBg1_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText1 {{bar1 ? 'barText_2' : 'barText_1'}}">安装计划</text>
+  </view>
+  <view class='repairBox' bindtap='goRepair'>
+    <image class="bar bar2" src="/images/{{bar2 ? 'baBgr2_2' : 'barBg2_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText2 {{bar2 ? 'barText_2' : 'barText_1'}}">报修</text>
+  </view>
+</view>

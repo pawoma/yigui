@@ -1,0 +1,16 @@
+<!--订单首次保修-->
+<scroll-view scroll-y class="page-container">
+  <page-head></page-head>
+
+  <view class='line-grey'></view>
+  <view wx:if="{{orderList.length>0}}" class='btn-box'>
+    <view class='btn' bindtap='selectOrder'>请选择需要保修的订单</view>
+  </view>
+  <view wx:else class="empty-box">
+    <text class='tip1'>您目前没有符合保修的订单</text>
+    <text class='tip2'>只有“已签收”的订单才可选择保修</text>
+  </view>
+
+</scroll-view>
+
+<page-footer bar1="{{bar1}}" bar2="{{bar1}}"></page-footer>

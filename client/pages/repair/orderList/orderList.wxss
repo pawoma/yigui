@@ -1,0 +1,13 @@
+.order-item {
+  padding: 20rpx 40rpx;
+}
+
+.btn {
+  background: #C0DC97;
+  color: black;
+  border-radius: 20px;
+  padding: 8rpx 0;
+  width:200rpx;
+  text-align: center;
+  margin:30rpx auto;
+}

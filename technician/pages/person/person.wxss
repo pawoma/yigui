@@ -1,0 +1,16 @@
+/* pages/person/person.wxss */
+.info-box{
+  width:80%;
+  margin:0 auto;
+  color: #c8c9ca;
+  font-size:30rpx;
+}
+.info-box .title{
+  color:black;
+}
+.info-box .row{
+  height:130rpx;
+  line-height: 130rpx;
+  padding-left:30rpx;
+  border-bottom:solid 2rpx #C1C1C1;
+}

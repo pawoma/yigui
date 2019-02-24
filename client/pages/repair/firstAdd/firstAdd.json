@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "page-head": "/pages/components/pageHead/pageHead",
+    "page-footer": "/pages/components/pageFooter/pageFooter",
+    "order-item": "../components/orderItem/orderItem",
+    "repair-form": "../components/repairForm/repairForm"
+  }
+}

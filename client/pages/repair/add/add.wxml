@@ -1,0 +1,16 @@
+<scroll-view scroll-y class="page-container">
+  <page-head></page-head>
+  <view class='line-orange'></view>
+  <view class='order-detail'>
+    <repair-status></repair-status>
+    <order-item item="{{orderRepair}}" noBorder custom-class="order-item">
+    </order-item>
+    <repair-detail-item item="{{orderRepair.repairList[orderRepair.repairList.length-1]}}" ></repair-detail-item>
+
+  </view>
+  <view class='line-orange'></view>
+  <repair-form bind:on-submit="onSubmit"></repair-form>
+
+</scroll-view>
+
+<page-footer bar1="{{bar1}}" bar2="{{bar2}}"></page-footer>

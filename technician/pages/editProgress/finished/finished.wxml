@@ -1,0 +1,14 @@
+<scroll-view scroll-y class="container">
+  <page-head></page-head>
+  <view class='line-blue'></view>
+  <view class='order-box'>
+    <order-detail item="{{orderDetail}}" custorm-class="my-class"></order-detail>
+    <install-item item="{{installDetail}}"></install-item>
+  </view>
+  <view class='line-blue'></view>
+  <view class='btn-box' bindtap='signfor'>
+    <image class='img' src="/images/an3.png"></image>
+    <text class='text'>安装签收</text>
+  </view>
+
+</scroll-view>

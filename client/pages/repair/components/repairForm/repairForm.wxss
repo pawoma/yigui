@@ -1,0 +1,55 @@
+
+.repair-con {
+  padding: 40rpx;
+}
+.repair-con .con-head {
+  font-size: 28rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.repair-con .con-form {
+  margin-top: 20rpx;
+  font-family: "FZLTHK--GBK1-0";
+}
+.repair-con .con-form .row-textarea {
+  width: 92%;
+  height: 132rpx;
+  padding: 25rpx;
+  border: 4rpx solid #FCD58C;
+  font-size: 25rpx;
+  font-weight: 400;
+  color: #000;
+}
+.repair-con .con-form .btn-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30rpx;
+}
+.repair-con .con-form .btn-box .upload-btn {
+  width: 160rpx;
+  height: 120rpx;
+  font-size: 24rpx;
+  background: #D1D1D1;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  line-height: 120rpx;
+}
+.repair-con .con-form .btn-box .submit-btn {
+  width: 180rpx;
+  height: 50rpx;
+  background: #FCD58C;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 50rpx;
+  align-self: flex-end;
+}
+.repair-con .con-form .image-item {
+  width: 160rpx;
+  height: 119rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}

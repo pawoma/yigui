@@ -1,0 +1,151 @@
+/**index.wxss**/
+.container{
+  position: absolute;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  padding: 0;
+}
+.headImg{
+  position: absolute;
+  width: 100%;
+  height: 197rpx;
+  top:0rpx;
+}
+.bigName{
+  position: absolute;
+  left: 62rpx;
+  top: 60rpx;
+  font-size:36rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
+.bigAddress{
+  position: absolute;
+  left: 61rpx;
+  top: 111rpx;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
+.line{
+  width: 100%;
+  height: 21rpx; 
+  background: #c8c9ca;
+}
+.line1{
+  margin-top: 197rpx;
+}
+.line2{
+  margin-top: 40rpx;
+}
+.text{
+  margin-top: 40rpx;
+  width:500rpx;
+  height:43rpx;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+}
+.text1{
+  margin-left: 61rpx;
+  display: block;
+}
+.box2{
+  position: relative;
+  margin-left: 61rpx;
+  margin-top: 40rpx;
+}
+.chooseOrder{
+  position: absolute;
+  width:205rpx;
+  height:44rpx;
+  background: #54c3f1;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  text-align: center;
+  line-height: 44rpx;
+  border-radius: 44rpx;
+  top:8rpx;
+  left:426rpx;
+}
+.xiline{
+  margin-left: 60rpx;
+  margin-top: 20rpx;
+  width: 630rpx;
+  height: 3rpx;
+}
+.xiline1{
+  background: #c8c9ca;
+}
+.xiline2{
+  background: #58b9e3;
+}
+.listbox{
+  width: 670rpx;
+  height: auto;
+  overflow: hidden;
+  margin-left:45rpx;
+}
+.peopleBox{
+  position:relative;
+  width: 154rpx;
+  height: 190rpx;
+  margin-left: 10rpx;
+  float: left;
+}
+.anzhuangBox{
+  position:relative;
+  width: 154rpx;
+  height: 200rpx;
+  margin-left: 10rpx;
+  float: left;
+}
+.headUrl{
+  position: absolute;
+  width: 88rpx;
+  left: 33rpx;
+  top: 17rpx;
+}
+.anzhuangUrl{
+  position: absolute;
+  width: 98rpx;
+  left: 28rpx;
+  top: 40rpx;
+}
+.peopleBox text{
+  position: absolute;
+  width: 100%;
+  height: 36rpx;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+  line-height:36rpx;
+  text-align: center;
+}
+.anzhuangBox text{
+  position: absolute;
+  width: 100%;
+  height: 36rpx;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+  line-height:36rpx;
+  text-align: center;
+}
+.post{
+  top: 120rpx;
+}
+.post1{
+  top: 150rpx;
+}
+.name{
+  top: 150rpx;
+}

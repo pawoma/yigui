@@ -1,0 +1,15 @@
+<scroll-view scroll-y class="page-container">
+  <page-head></page-head>
+
+  <view class='order-detail'>
+    <view class='line-orange'></view>
+    <order-item item="{{orderRepair}}" custom-class="order-item">
+      <view class="btn" bindtap="onChangeOrder">点击更换订单</view>
+    </order-item>
+    <view class='line-orange'></view>
+  </view>
+  <repair-form bind:on-submit="onSubmit"></repair-form>
+
+</scroll-view>
+
+<page-footer bar1="{{bar1}}" bar2="{{bar2}}"></page-footer>

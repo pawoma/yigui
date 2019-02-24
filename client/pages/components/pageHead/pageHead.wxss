@@ -1,0 +1,32 @@
+/* pages/components/pageHead/pageHead.wxss */
+.page-head {
+  position: relative;
+  width: 100%;
+  height: 197rpx;
+}
+
+.head-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.head-name {
+  position: absolute;
+  left: 62rpx;
+  top: 60rpx;
+  font-size: 36rpx;
+  font-family: FZLTHK--GBK1-0;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}
+
+.head-address {
+  position: absolute;
+  left: 61rpx;
+  top: 111rpx;
+  font-size: 29rpx;
+  font-family: FZLTHK--GBK1-0;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+}

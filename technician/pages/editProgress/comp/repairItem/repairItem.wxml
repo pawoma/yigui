@@ -1,0 +1,15 @@
+<view class='detail-item custom-class'>
+  <view class='item-text'>
+    <view>客户报修内容：</view>
+    <view style="text-indent:2em;">
+      {{item.content}}
+    </view>
+  </view>
+  <scroll-view class='item-imgs' scroll-x>
+    <view class='imgs-con'>
+      <block wx:for="{{item.imageList}}" wx:key="{{index}}">
+        <image mode="scaleToFill" class='img-item' src='{{item}}' data-src="{{item}}" bindtap='clickHandler'></image>
+      </block>
+    </view>
+  </scroll-view>
+</view>

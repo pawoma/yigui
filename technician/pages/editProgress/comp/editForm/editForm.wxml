@@ -1,0 +1,19 @@
+<view class='form'>
+  <view class='row-date'>{{type==="install"?"上门安装时间":"上门维修时间"}}：{{date}}</view>
+  <view class='row-radio'>
+    <text>是否完工？</text>
+    <radio-group class="radio-group" bindchange="onRadioChange">
+      <label class="radio" wx:for="{{installStatusList}}" wx:key="{{index}}">
+        <radio value="{{item.value}}" checked="{{item.checked}}" /> {{item.name}}
+      </label>
+    </radio-group>
+  </view>
+  <view class='row-input'>
+    <textarea class='row-textarea' placeholder='输入未完工原因' bindinput="onInputChange"></textarea>
+  </view>
+  <view class='row-upload'>
+    <image wx:for="{{imageList}}" mode="aspectFill" wx:key="{{index}}" class='image-item' src='{{item.src}}'></image>
+    <view class='upload-btn' bindtap='chooseImage'>点击添加照片</view>
+  </view>
+  <view class='submit-btn' bindtap='submit'>确认提交</view>
+</view>

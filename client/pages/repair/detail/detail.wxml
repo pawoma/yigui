@@ -1,0 +1,13 @@
+<!--订单保修详情-->
+<scroll-view scroll-y class="page-container">
+  <page-head></page-head>
+  <view class='line-orange'></view>
+  <view class='repair-detail'>
+    <repair-status></repair-status>
+    <order-item custom-class="detail-order" no-border item="{{orderDetail}}"></order-item>
+    <block wx:for="{{repairDetailList}}" wx:key="{{index}}">
+      <repair-detail-item item="{{item}}" custom-class="{{index>=1?'has-border':''}}"></repair-detail-item>
+    </block>
+  </view>
+</scroll-view>
+<page-footer bar1="{{bar1}}" bar2="{{bar2}}"></page-footer>

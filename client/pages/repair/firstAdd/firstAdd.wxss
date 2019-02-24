@@ -1,0 +1,18 @@
+/* pages/repair/new/new.wxss */
+.order-item{
+  padding:20rpx 40rpx;
+}
+
+.order-item .item-title{
+  border-bottom: solid 2rpx #D1D1D1;
+}
+.btn{
+  margin:50rpx auto 20rpx auto;
+  width:200rpx;
+  line-height: 44rpx;
+  background: #FCD58C;
+  font-size: 22rpx;
+  color: black;
+  text-align: center;
+  border-radius: 60rpx;
+}

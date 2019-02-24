@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<scroll-view scroll-y class="container">
+ <page-head></page-head>
+  <view class='line-blue'></view>
+  <text class='text1 bigtext'>安装签收</text>
+  <view class='xiline xiline1'></view>
+  <view class='introduceBox'>
+    <text class='introduce2 text1'>《科勒衣柜验收检查》</text>
+    <text class='introduce introduce1 text1'>假字假字假字假字假字假字假字假字假字假字假字假字假字假字，假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字。
+	假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字，假字假字假字假字假字假字假字假字假字假字假字假字假字假字。
+	假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字，假字假字假字假字假字假字假字假字假字假字假字假字假字假字。</text>
+  </view>
+</scroll-view>

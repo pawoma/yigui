@@ -1,0 +1,16 @@
+<scroll-view scroll-y class="container">
+  <page-head></page-head>
+  <view class='line-yellow'></view>
+  <view class='order-box'>
+    <order-detail item="{{orderDetail}}" custorm-class="my-class"></order-detail>
+    <repair-item item="{{repairDetail}}"></repair-item>
+  </view>
+  <view class='line-yellow'></view>
+  <view wx:if="{{repairStatus == 1}}" class='btn-box' bindtap='signfor'>
+    <image class='img' src="/images/an5.png"></image>
+    <text class='text'>报修签收</text>
+  </view>
+  <view wx:else class='form-box'>
+    <edit-form type="repair" bind:change="onChange" bind:submit="onSubmit"></edit-form>
+  </view>
+</scroll-view>

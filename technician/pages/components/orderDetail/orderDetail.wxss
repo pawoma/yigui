@@ -1,0 +1,22 @@
+.order-item {
+  width: 100%;
+}
+
+.order-item .item-title {
+  font-size: 28rpx;
+  padding: 20rpx 0;
+}
+
+.order-item .item-detail {
+  color: #9f9fa0;
+  line-height: 1.6;
+  font-size: 24rpx;
+  padding:30rpx 0;
+  border-top: solid 3rpx #c9c9ca;
+  border-bottom: solid 3rpx #c9c9ca;
+}
+
+.order-item .item-detail .row {
+  display: block;
+}
+

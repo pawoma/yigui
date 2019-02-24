@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "page-head": "/pages/components/pageHead/pageHead",
+    "search-input": "/pages/components/searchInput/searchInput",
+    "order-item": "/pages/components/orderItem/orderItem"
+  }
+}

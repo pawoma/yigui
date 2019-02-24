@@ -1,0 +1,25 @@
+.detail-item {
+  font-size: 24rpx;
+  padding: 30rpx 0;
+}
+
+.item-text {
+  color: #9f9fa0;
+  line-height: 1.8;
+  font-size: 24rpx;
+}
+
+.item-imgs {
+  overflow: hidden;
+  margin-top:30rpx;
+}
+
+.imgs-con {
+  width: 100%;
+  white-space: nowrap;
+}
+.img-item {
+  width: 200rpx;
+  height: 120rpx;
+  margin-right: 15rpx;
+}

@@ -1,0 +1,11 @@
+<scroll-view scroll-y class="page-container">
+  <page-head></page-head>
+  <search-input bind:on-search="onSearch" init-value="{{initVal}}"></search-input>
+  <block wx:if="{{orderList.length>0}}">
+    <order-item wx:for="{{orderList}}"  wx:key="{{index}}" item="{{item}}" custorm-class="my-class"></order-item>
+  </block>
+  <block wx:else>
+    <view class='line-grey'></view>
+    <view class='empty'>没有搜索到相匹配的订单</view>
+  </block>
+</scroll-view>

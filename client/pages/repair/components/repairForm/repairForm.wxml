@@ -1,0 +1,18 @@
+<view class='repair-con'>
+  <view class='con-head'>
+    <text>报修内容</text>
+    <text>{{date}}</text>
+  </view>
+  <view class='con-form'>
+    <textarea class='row-textarea' placeholder='输入内容' bindinput="onInputChange"></textarea>
+    <view class='image-box'>
+      <block wx:for="{{imageList}}" wx:key="{{index}}">
+        <image class='image-item' src='{{item.src}}'></image>
+      </block>
+      <view class='btn-box'>
+        <view class='upload-btn' bindtap='chooseImage'>点击添加照片</view>
+        <view class='submit-btn' bindtap='submit'>确认提交</view>
+      </view>
+    </view>
+  </view>
+</view>

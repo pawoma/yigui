@@ -1,0 +1,27 @@
+.detail-item {
+  font-size: 24rpx;
+  padding: 25rpx 10rpx;
+}
+.detail-item .item-con {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.detail-item .item-con .con-right {
+  width: 80%;
+  overflow: hidden;
+}
+.detail-item .item-con .con-right .right-text {
+  color: #9f9fa0;
+}
+.detail-item .item-con .con-right .right-imgs {
+  width:100%;
+  margin-top:20rpx;
+  white-space: nowrap;
+}
+.detail-item .item-con .con-right .right-imgs .img-item {
+  width:200rpx;
+  height:120rpx;
+  margin-right:15rpx;
+}
+

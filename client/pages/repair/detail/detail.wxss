@@ -1,0 +1,28 @@
+.repair-detail {
+  padding: 20rpx 40rpx;
+}
+
+
+
+.detail-order {
+  padding:20rpx 0 20rpx 10rpx!important;
+  border-top: solid 4rpx #c9c9ca;
+  border-bottom: solid 4rpx #c9c9ca;
+}
+
+.detail-item .btn-box {
+  display: flex;
+  justify-content: space-around;
+}
+.detail-item .btn-box .btn {
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: #FCD58C;
+  text-align: center;
+  color: black;
+  border-radius: 50rpx;
+}
+.has-border{
+  border-top:dashed 2rpx #c9c9ca;
+}

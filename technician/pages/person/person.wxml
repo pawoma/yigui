@@ -1,0 +1,10 @@
+<view>
+  <page-head></page-head>
+  <view class='line-grey'></view>
+  <view class='info-box'>
+    <view class='row title'>员工信息</view>
+    <view class='row'>{{name}}</view>
+    <view class='row' style="border:none">手机号码：{{tel}}</view>
+  </view>
+  <view class='line-grey'></view>
+</view>

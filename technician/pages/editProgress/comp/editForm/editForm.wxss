@@ -1,0 +1,67 @@
+.form .row-date {
+  font-size: 24rpx;
+  color: #9f9fa0;
+}
+
+.form .row-radio {
+  display: flex;
+  align-items: center;
+  margin: 20rpx 0;
+  font-size: 26rpx;
+  justify-content: space-between;
+}
+
+.form .radio-group {
+  display: flex;
+  justify-content: space-between;
+  width: 73%;
+}
+
+.form .row-input {
+  width: 92%;
+  height: 132rpx;
+  padding: 25rpx;
+  border: 4rpx solid #d1d1d1;
+  font-size: 25rpx;
+  font-weight: 400;
+  color: #000;
+}
+.form .row-input textarea{
+  height:100%;
+}
+
+.form .row-upload {
+  margin-top: 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.upload-btn {
+  width: 160rpx;
+  height: 120rpx;
+  font-size: 24rpx;
+  background: #d1d1d1;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  line-height: 120rpx;
+}
+
+.submit-btn {
+  width: 180rpx;
+  height: 50rpx;
+  background: #d1d1d1;
+  font-size: 26rpx;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  line-height: 50rpx;
+  border-radius: 50rpx;
+  margin: 50rpx auto;
+}
+
+.image-item {
+  width: 160rpx;
+  height: 119rpx;
+  margin:15rpx 15rpx 0 0 
+}

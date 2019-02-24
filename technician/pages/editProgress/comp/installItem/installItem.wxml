@@ -1,0 +1,18 @@
+<view class='detail-item custom-class'>
+    <view class='con-left'>
+      <text class='row'>首次上门安装时间：{{item.date}}</text>
+      <text class='row'>安装技师：{{item.name}}</text>
+      <text class='row'>是否完工：{{item.isDone}}</text>
+      <text class='row'>原因：{{item.reason}}</text>
+    </view>
+    <view class='con-right'>
+      <view class='right-text'>{{item.content}}</view>
+      <scroll-view scroll-x style="width:100%">
+        <view class='right-imgs'>
+          <block wx:for="{{item.imageList}}" wx:key="{{index}}">
+            <image mode="scaleToFill" class='img-item' src='{{item}}' data-src="{{item}}" bindtap='clickHandler'></image>
+          </block>
+        </view>
+      </scroll-view>
+    </view>
+</view>

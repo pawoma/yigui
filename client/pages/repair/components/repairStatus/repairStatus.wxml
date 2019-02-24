@@ -1,0 +1,4 @@
+<view class='repair-status'>
+  <text class="title-text">保修</text>
+  <text class='status-text {{completed?"done":"process"}}'>{{completed ? '已完成' : '受理中'}}</text>
+</view>

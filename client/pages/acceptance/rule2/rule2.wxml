@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<scroll-view scroll-y class="container">
+  <image class='headImg' src='/images/title.png'></image>
+  <text class='bigName'>{{myName}}</text>
+  <text class='bigAddress'>{{myAddress}}</text>
+  <view class='bigline line1'></view>
+  <text class='text1 bigtext'>安装签收</text>
+  <view class='xiline xiline1'></view>
+  <view class='introduceBox'>
+    <text class='introduce2 text1'>《科勒衣柜质保卡》</text>
+    <text class='introduce introduce1 text1'>假字假字假字假字假字假字假字假字假字假字假字假字假字假字，假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字。
+	假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字，假字假字假字假字假字假字假字假字假字假字假字假字假字假字。
+	假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字假字，假字假字假字假字假字假字假字假字假字假字假字假字假字假字。</text>
+  </view>
+</scroll-view>
+
+<view class='bar_box'>
+  <image class='barBg' src='/images/barBg.png'></image>
+  <view class='indexBox' bindtap='goIndex'>
+    <image class="bar bar1" src="/images/{{bar1 ? 'barBg1_2' : 'barBg1_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText1 {{bar1 ? 'barText_2' : 'barText_1'}}">安装计划</text>
+  </view>
+  <view class='repairBox' bindtap='goRepair'>
+    <image class="bar bar2" src="/images/{{bar2 ? 'baBgr2_2' : 'barBg2_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText2 {{bar2 ? 'barText_2' : 'barText_1'}}">报修</text>
+  </view>
+</view>

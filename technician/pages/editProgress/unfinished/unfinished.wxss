@@ -1,0 +1,9 @@
+/* pages/editProgress/editProgress.wxss */
+
+.order-box{
+  padding:0 40rpx;
+}
+.form-box{
+  margin-top:10rpx;
+  padding:20rpx 40rpx;
+}

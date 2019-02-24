@@ -1,0 +1,23 @@
+.repair-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15rpx 0;
+  border-bottom: solid 3rpx #c9c9ca;
+}
+
+.repair-status .title-text {
+  font-weight: bold;
+  font-size:28rpx;
+}
+
+.repair-status .status-text {
+  padding: 8rpx 10rpx;
+  color: black;
+}
+.repair-status .process{
+  background: #fcd58c;
+}
+.repair-status .done{
+  background: #C0DC97;
+}

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/repair/orderRepair/orderRepair",
+    "pages/repair/add/add",
+    "pages/repair/firstAdd/firstAdd",
+    "pages/repair/orderList/orderList",
+    "pages/repair/repair",
+    "pages/repair/detail/detail",
+    "pages/index/index",
+    "pages/evaluation/evaluation",
+    "pages/acceptance/acceptance",
+    "pages/acceptance/rule1/rule1",
+    "pages/acceptance/rule2/rule2",
+    "pages/visiteInstallation/visiteInstallation",
+    "pages/yuyue/yuyue",
+    "pages/order/order",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "科勒衣柜",
+    "navigationBarTextStyle": "black",
+    "backgroundColorTop": "#fff",
+    "backgroundColorBottom": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "white",
+    "borderStyle": "black",
+    "backgroundColor": "#2A2B2B",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/barBg1_1.png",
+        "selectedIconPath": "images/barBg1_2.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/repair/repair",
+        "iconPath": "images/barBg2_1.png",
+        "selectedIconPath": "images/barBg2_2.png",
+        "text": "实景案例"
+      }
+    ]
+  }
+}

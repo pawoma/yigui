@@ -1,0 +1,12 @@
+<!--pages/components/pageFooter/pageFooter.wxml-->
+<view class='bar_box'>
+  <image class='barBg' src='/images/barBg.png'></image>
+  <view class='indexBox' bindtap='goIndex'>
+    <image class="bar bar1" src="/images/{{bar1 ? 'barBg1_2' : 'barBg1_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText1 {{bar1 ? 'barText_2' : 'barText_1'}}">安装计划</text>
+  </view>
+  <view class='repairBox' bindtap='goRepair'>
+    <image class="bar bar2" src="/images/{{bar2 ? 'barBg2_2' : 'barBg2_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText2 {{bar2 ? 'barText_2' : 'barText_1'}}">报修</text>
+  </view>
+</view>

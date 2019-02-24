@@ -1,0 +1,8 @@
+/* pages/repair/new/new.wxss */
+.order-detail{
+   padding:20rpx 40rpx
+}
+.order-item{
+  padding:20rpx 0!important;
+  border-bottom: solid 4rpx #C9C9CA;
+}

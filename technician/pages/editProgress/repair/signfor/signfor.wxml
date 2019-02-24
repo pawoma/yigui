@@ -1,0 +1,32 @@
+<scroll-view scroll-y class="container">
+  <page-head></page-head>
+  <view class='line-yellow'></view>
+  <view class='order-box'>
+    <order-detail item="{{orderDetail}}" custorm-class="my-class"></order-detail>
+    <repair-item item="{{repairDetail}}"></repair-item>
+  </view>
+  <view class='line-yellow'></view>
+
+  <view class='introduceBox'>
+    <view>尊敬的客户：</view>
+    <view style="text-indent:2em">您好，感谢您选购科勒衣柜产品！</view>
+    <view style="text-indent:2em">您的产品已维修完毕，点击开始签收，签收完成后您的产品将开始享受科勒衣柜质保服务</view>
+    <view class='dateBox'>
+      <view class='signfor-date'>签收时间：</view>
+      <view class='dateBg'>
+        <image class='select' src='/images/select.png' mode='widthFix'></image>
+        <text class='dateText'>{{orderDetail.signforDate}}</text>
+      </view>
+    </view>
+    <view class='photoBox'>
+      <image class='kuang' src='/images/kuang.png' mode='widthFix'></image>
+      <text class='photoText'>点击本区域
+    进行电子签名</text>
+    </view>
+
+    <view class='btn-box'>
+      <view class='again-btn btn'>重新签名</view>
+      <view class='again-btn btn'>确认提交</view>
+    </view>
+  </view>
+</scroll-view>

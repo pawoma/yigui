@@ -1,0 +1,13 @@
+<scroll-view scroll-y class="container">
+  <page-head></page-head>
+  <view class='line-purple'></view>
+  <view class='order-box'>
+    <order-detail item="{{orderDetail}}" custorm-class="my-class"></order-detail>
+    <install-item item="{{installDetail}}"></install-item>
+  </view>
+  <view class='line-purple'></view>
+
+  <view class='form-box'>
+    <edit-form bind:submit="{{onSubmit}}"></edit-form>
+  </view>
+</scroll-view>

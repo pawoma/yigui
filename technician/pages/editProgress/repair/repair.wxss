@@ -1,0 +1,25 @@
+/* pages/editProgress/editProgress.wxss */
+
+.order-box{
+  padding:20rpx 40rpx;
+}
+
+.form-box{
+  margin-top:10rpx;
+  padding:20rpx 40rpx;
+}
+
+.btn-box{
+  text-align: center;
+  margin:50rpx 0;
+}
+.btn-box .img{
+  display: block;
+  width:100rpx;
+  height:100rpx;
+  margin:0 auto;
+  margin-bottom:10rpx;
+}
+.btn-box .text{
+  font-size:24rpx;
+}

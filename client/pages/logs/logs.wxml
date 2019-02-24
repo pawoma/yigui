@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='bg'></view>
+  <view class='loginBox' wx:if="{{flag}}">
+    <text class='loginTitle'>请通过手机号码登录小程序</text>
+    <text class='mobileText'>手机号码</text>
+    <text class='codeText'>输入验证码</text>
+    <input class='mobile'></input>
+    <input class='code'></input>
+    <view class='codeBtn'>发送验证码</view>
+    <button bindtap='cencel' class='quxiaoBtn Btn'>取消</button>
+    <button bindtap='confirm' class='querenBtn Btn'>确认</button>
+  </view>
+  <view wx:else class='loginBox'>
+    <text class='loginTitle' style='color:#e60012'>登陆失败</text>
+    <text class='remindText'>该手机号未在后台找到对应信息。</text>
+    <button bindtap='exit' class='quxiaoBtn Btn'>退出</button>
+    <button bindtap='again' class='querenBtn Btn'>重新输入</button>
+  </view>
+</view>

@@ -1,0 +1,41 @@
+.repair-detail {
+  padding: 20rpx 40rpx;
+}
+
+.detail-order {
+  padding:20rpx 0 20rpx 10rpx!important;
+  border-bottom: solid 3rpx #c9c9ca;
+}
+
+.btn-box {
+  width:70%;
+  margin:0 auto;
+  margin-top:40rpx;
+  display: flex;
+  justify-content: space-around;
+}
+.btn-box .btn,.change-btn {
+  width: 180rpx;
+  font-size:22rpx;
+  line-height: 44rpx;
+  background: #FCD58C;
+  text-align: center;
+  color: black;
+  border-radius: 60rpx;
+}
+.btn-box .evaluate-btn{
+  background: #C0DC97;
+}
+.change-btn{
+  margin:0 auto;
+  margin-top:80rpx;
+}
+
+.has-border{
+  border-top:dashed 2rpx #c9c9ca;
+}
+.line-grey{
+  height:2rpx;
+  margin-top:40rpx;
+  background:#C9C9CA;
+}

@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<scroll-view scroll-y class="container">
+  <page-head></page-head>
+  <search-input bind:on-search="onSearch"></search-input>
+  <view class='tab'>
+    <view class='tab-head'>
+      <view class='{{tabStu==="progress"?"active":""}} progress tab-btn' bindtap="tabClick" data-name="progress">
+        <image class='rightShadow' src='/images/rightShadow1.png'></image>安装中</view>
+      <view class='{{tabStu==="done"?"active":""}} done tab-btn' bindtap="tabClick" data-name="done">
+        <image class='rightShadow rightShadow1' src='/images/rightShadow1.png'></image>
+        <text>已完成</text>
+        <image class='rightShadow rightShadow1' src='/images/leftShadow2.png'></image>
+      </view>
+      <view class='{{tabStu==="repair"?"active":""}} repair tab-btn' bindtap="tabClick" data-name="repair">保修</view>
+    </view>
+    <view class='tab-body'>
+      <block wx:if="{{tabStu === 'progress'}}">
+        <order-item wx:for="{{order.progressList}}" has-btn item="{{item}}" wx:key="{{index}}"></order-item>
+      </block>
+      <block wx:if="{{tabStu === 'done'}}">
+        <order-item wx:for="{{order.doneList}}" item="{{item}}" wx:key="{{index}}"></order-item>
+      </block>
+      <block wx:if="{{tabStu === 'repair'}}">
+        <order-item wx:for="{{order.repairList}}" item="{{item}}" wx:key="{{index}}"></order-item>
+      </block>
+    </view>
+  </view>
+
+</scroll-view>

@@ -1,0 +1,16 @@
+<view class='detail-item custom-class'>
+  <view class='item-title'>保修时间：{{item.date}}</view>
+  <view class='item-con'>
+    <text class='con-left'>保修内容：</text>
+    <view class='con-right'>
+      <view class='right-text'>{{item.content}}</view>
+      <scroll-view scroll-x style="width:100%">
+        <view class='right-imgs'>
+          <block wx:for="{{item.imageList}}" wx:key="{{index}}">
+            <image mode="scaleToFill" class='img-item' src='{{item}}' data-src="{{item}}" bindtap='clickHandler'></image>
+          </block>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

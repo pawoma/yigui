@@ -1,0 +1,106 @@
+/* pages/editProgress/editProgress.wxss */
+
+.order-box{
+  padding:20rpx 40rpx;
+}
+
+.form-box{
+  margin-top:10rpx;
+  padding:20rpx 40rpx;
+}
+.btn-box{
+  text-align: center;
+  margin:50rpx auto;
+  display: flex;
+  justify-content: space-around;
+  width:80%;
+}
+.btn-box .btn{
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  background: #FCD58C;
+  text-align: center;
+  color: black;
+  border-radius: 50rpx;
+}
+.introduceBox{
+  margin-top:25rpx;
+  padding:25rpx 40rpx;
+  color:rgba(158,158,159,1);
+  line-height: 1.8;
+  font-size:24rpx;
+}
+.dateBox{
+  display: flex;
+  margin:40rpx 0;
+  color:rgba(158,158,159,1);
+  font-size:25rpx;
+}
+.dateBox .introduce1{
+  margin-left: 0rpx;
+  margin-top:8rpx;
+}
+.dateBg{
+  position: relative;
+  width:225rpx;
+  height:30rpx;
+  display: inline-block;
+}
+
+.dateText{
+  width:225rpx;
+  height:30rpx;
+  background: #c9caca;
+  font-size:25rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+  line-height:30rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  display:inline-block;
+}
+.dateText1{
+  width:225rpx;
+  height:30rpx;
+  font-size:25rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(158,158,159,1);
+  line-height:30rpx;
+  text-align: left;
+  border-radius: 30rpx;
+  display:inline-block;
+}
+.photoBox{
+  width:622rpx;
+  margin:0 auto;
+  height:271rpx;
+  background: #efefef;
+  text-align: center;
+  position: relative;
+}
+.select{
+  position:absolute;
+  left:190rpx;
+  width:22rpx;
+  top:17rpx;
+}
+.kuang{
+  width: 622rpx;
+}
+.photoText{
+  position: absolute;
+  width:622rpx;
+  height:100rpx;
+  left: 0rpx;
+  top: 86rpx;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(158,158,159,1);
+  line-height:48rpx;
+  text-align: center;
+}
+

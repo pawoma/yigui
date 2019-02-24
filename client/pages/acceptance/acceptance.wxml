@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<scroll-view scroll-y class="container">
+  <image class='headImg' src='/images/title.png'></image>
+  <text class='bigName'>{{myName}}</text>
+  <text class='bigAddress'>{{myAddress}}</text>
+  <view class='bigline line1'></view>
+  <text class='text1 bigtext'>安装签收</text>
+  <view class='xiline xiline1'></view>
+  <view class='introduceBox' wx:if="{{signatureSuccess}}">
+    <text class='introduce text'>尊敬的客户：</text>
+    <text class='introduce introduce1 text'>您好，感谢您选购科勒衣柜产品！</text>
+    <view class='introduceBox1'>
+      <text class='introduce1 text'>您的产品现已安装完毕，请您仔细检查</text><text class='text' style='text-decoration:underline' bindtap='checkAccept'>科勒衣柜验收检查</text><text class='introduce1 text'>后点击开始签收，签收完成后您的产品将开始享受科勒衣柜质保服务</text><text class='text' style='text-decoration:underline' bindtap='warranty'>科勒衣柜质保卡</text><text class='introduce1 text'>。</text>
+    </view>
+    <view class='dateBox'>
+    <text class='timeText introduce1 text'>签收时间：</text>
+    <view class='dateBg'>
+      <image class='select' src='/images/select.png' mode='widthFix'></image>
+      <text class='dateText'>{{date}}</text>
+    </view>
+  </view>
+  <view class='photoBox'>
+    <image class='kuang' src='/images/kuang.png' mode='widthFix'></image>
+    <text class='photoText'>点击本区域
+    进行电子签名</text>
+  </view>
+  <view class='submit'>确认提交</view>
+  </view>
+  <view class='introduceBox introduceAllBox' wx:else>
+    <text class='title'>《安装签收》</text>
+    <text class='introduce text'>尊敬的客户：</text>
+    <text class='introduce introduce1 text'>您好，感谢您选购科勒衣柜产品！</text>
+    <view class='introduceBox1'>
+      <text class='introduce1 text'>您的产品现已安装完毕，请您仔细检查</text><text class='text' style='text-decoration:underline' bindtap='checkAccept'>科勒衣柜验收检查</text><text class='introduce1 text'>后点击开始签收，签收完成后您的产品将开始享受科勒衣柜质保服务</text><text class='text' style='text-decoration:underline' bindtap='warranty'>科勒衣柜质保卡</text><text class='introduce1 text'>。</text>
+    </view>
+    <view class='dateBox'>
+    <text class='timeText introduce1 text'>签收时间：</text>
+    <view class='dateBg'>
+      <text class='dateText1'>{{date}}</text>
+    </view>
+    <image class='qianming' src='/images/qianming.png' mode='widthFix'></image>
+  </view>
+  </view>
+</scroll-view>
+
+<view class='bar_box'>
+  <image class='barBg' src='/images/barBg.png'></image>
+  <view class='indexBox' bindtap='goIndex'>
+    <image class="bar bar1" src="/images/{{bar1 ? 'barBg1_2' : 'barBg1_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText1 {{bar1 ? 'barText_2' : 'barText_1'}}">安装计划</text>
+  </view>
+  <view class='repairBox' bindtap='goRepair'>
+    <image class="bar bar2" src="/images/{{bar2 ? 'baBgr2_2' : 'barBg2_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText2 {{bar2 ? 'barText_2' : 'barText_1'}}">报修</text>
+  </view>
+</view>

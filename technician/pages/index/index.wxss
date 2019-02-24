@@ -1,0 +1,40 @@
+/**index.wxss**/
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.tab {
+}
+
+.tab-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab-head .tab-btn {
+  width: 250rpx;
+  text-align: center;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.progress {
+  background-color: #c8c9ca;
+}
+
+.done {
+  background-color: #54c2f1;
+  border-left: solid 1px rgba(0, 0, 0, 0.3);
+  border-right: solid 1px rgba(0, 0, 0, 0.3);
+}
+
+.repair {
+  background-color: #fcd58c;
+}
+
+.tab-head .active {
+  /* box-shadow: none; */
+}

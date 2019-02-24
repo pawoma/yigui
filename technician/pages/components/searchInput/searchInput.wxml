@@ -1,0 +1,5 @@
+<view class='search-box'>
+  <image mode="aspectFit" class='search-bg' src='/images/search-bg.png'></image>
+  <input class='search-input' value="{{initValue}}" bindinput="bindKeyInput"></input>
+  <view class='search-btn' bindtap="onSearch"></view>
+</view>

@@ -1,0 +1,19 @@
+<!--订单已有保修记录-->
+<scroll-view scroll-y class="page-container">
+  <page-head></page-head>
+  <view class='line-orange'></view>
+  <view class='repair-detail'>
+    <repair-status></repair-status>
+    <order-item custom-class="detail-order" no-border item="{{orderRepair}}"></order-item>
+    <repair-detail-item item="{{orderRepair.repairList[orderRepair.repairList.length-1]}}"></repair-detail-item>
+    <view class='btn-box'>
+      <view class='btn' bindtap="onViewDetail">查看详情</view>
+      <view wx:if="{{!orderRepair.status}}" class='btn' bindtap="onAddRepair">新增保修</view>
+      <view wx:else class='btn evaluate-btn' bindtap="onEvaluate">满意度调查</view>
+    </view>
+    <view class='line-grey'></view>
+
+    <view class='btn change-btn' bindtap="changeOrder">点击更换订单</view>
+  </view>
+</scroll-view>
+<page-footer bar1="{{bar1}}" bar2="{{bar2}}"></page-footer>

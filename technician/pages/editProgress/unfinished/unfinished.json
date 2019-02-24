@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "page-head": "/pages/components/pageHead/pageHead",
+    "order-detail": "/pages/components/orderDetail/orderDetail",
+    "install-item": "../comp/installItem/installItem",
+    "edit-form":"../comp/editForm/editForm"
+  }
+}

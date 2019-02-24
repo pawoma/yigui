@@ -1,0 +1,36 @@
+/* pages/components/orderItem/orderItem.wxss */
+
+/* .order-item{
+  padding:0 40rpx;
+} */
+
+.order-item .item-title {
+  font-size: 28rpx;
+  display: block;
+  padding:10rpx 0;
+  border-bottom: solid 4rpx #C9C9CA;
+}
+
+.order-item .no-border {
+  border-bottom: none;
+}
+
+.order-item .item-detail {
+  color: #9f9fa0;
+  line-height: 1.6;
+  font-size: 24rpx;
+  margin-top: 20rpx;
+}
+
+.order-item .item-detail .row {
+  display: block;
+}
+
+.order-item .select-btn {
+  width: 270rpx;
+  text-align: center;
+  border-radius: 32rpx;
+  line-height: 46rpx;
+  margin: 60rpx auto 20rpx auto;
+  font-size: 26rpx;
+}

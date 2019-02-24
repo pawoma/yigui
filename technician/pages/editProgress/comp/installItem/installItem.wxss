@@ -1,0 +1,34 @@
+.detail-item {
+  font-size: 24rpx;
+  padding: 30rpx 0;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.con-left {
+  color: #9f9fa0;
+  line-height: 1.6;
+  font-size: 24rpx;
+  width:60%;
+}
+.con-left .row{
+  display: block;
+}
+
+.con-right {
+  width: 40%;
+  overflow: hidden;
+}
+.con-right .right-text {
+  color: #9f9fa0;
+}
+.con-right .right-imgs {
+  width: 100%;
+  white-space: nowrap;
+}
+.con-right .right-imgs .img-item {
+  width: 200rpx;
+  height: 120rpx;
+  margin-right: 15rpx;
+}

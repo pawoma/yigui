@@ -1,0 +1,6 @@
+<!--pages/components/pageHead/pageHead.wxml-->
+<view class='page-head'>
+  <image class='head-img' src='/images/title.png'></image>
+  <text class='head-name'>{{name}}</text>
+  <text class='head-address'>{{address}}</text>
+</view>

@@ -1,0 +1,175 @@
+/**index.wxss**/
+.container{
+  position: absolute;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  padding: 0;
+}
+.headImg{
+  position: absolute;
+  width: 100%;
+  height: 197rpx;
+  top:0rpx;
+}
+.bigName{
+  position: absolute;
+  left: 62rpx;
+  top: 60rpx;
+  font-size:36rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
+.bigAddress{
+  position: absolute;
+  left: 61rpx;
+  top: 111rpx;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
+.btnBox{
+  position: absolute;
+  width: 100%;
+  height: 105rpx;
+  top: 196rpx;
+  left: 0rpx;
+}
+.installing{
+  position: absolute;
+  width: 250rpx;
+  height: 63rpx;
+  left: 0rpx;
+  top: 0rpx;
+  background: #d1c4e0;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+  text-align: center;
+  line-height: 60rpx;
+}
+.complete{
+  position: absolute;
+  width: 250rpx;
+  height: 63rpx;
+  left: 250rpx;
+  top: 0rpx;
+  background: #54c3f1;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  text-align: center;
+  line-height: 60rpx;
+}
+.signfor{
+  position: absolute;
+  width: 250rpx;
+  height: 63rpx;
+  left: 500rpx;
+  top: 0rpx;
+  background: #c0dd98;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+  text-align: center;
+  line-height: 60rpx;
+}
+.rightShadow{
+  position: absolute;
+  width: 29rpx;
+  height: 60rpx;
+  z-index: 10;
+}
+.rightShadow1{
+  left: 250rpx;
+}
+.rightShadow2{
+  left: 500rpx;
+}
+.leftShadow{
+  position: absolute;
+  width: 29rpx;
+  height: 60rpx;
+  z-index: 10;
+}
+.leftShadow1{
+  left: 231rpx;
+}
+.leftShadow2{
+  left: 483rpx;
+}
+.bottomLine{
+  position: absolute;
+  width: 750rpx;
+  height: 20rpx;
+  top: 60rpx;
+  left: 0rpx;
+}
+.bottomShadow{
+  position: absolute;
+  width: 750rpx;
+  top: 81rpx;
+  left: 0rpx;
+  z-index: 10;
+}
+.listBox{
+  position: relative;
+  width: 100%;
+  height: 555rpx;
+  background: #fff;
+  margin-top: 19rpx;
+}
+.orderNo{
+  position:absolute;
+  margin-left: 62rpx;
+  margin-top: 64rpx;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+}
+.line{
+  position:relative;
+  width:656rpx;
+  height:3rpx;
+  margin-left: 47rpx;
+  top: 122rpx;
+  background: #c9caca;
+  display: block;
+}
+.list{
+  position: absolute;
+  width: 100%;
+  top: 260rpx;
+}
+.text{
+  width:656rpx;
+  margin-left: 61rpx;
+  font-size:25rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(158,158,159,1);
+  line-height:35rpx;
+  display: block;
+}
+.store{
+  margin-top:141rpx;
+}
+.chooseOrder{
+  position: absolute;
+  left: 273rpx;
+  top: 445rpx;
+  width:204rpx;
+  height:45rpx;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  text-align: center;
+  line-height: 45rpx;
+  border-radius: 45rpx;
+}

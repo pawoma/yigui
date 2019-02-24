@@ -1,0 +1,372 @@
+/**index.wxss**/
+.container{
+  position: absolute;
+  width:100%;
+  height:89%;
+  overflow: hidden;
+  padding-bottom: 30rpx;
+}
+.headImg{
+  position: absolute;
+  width: 100%;
+  height: 197rpx;
+  top:0rpx;
+}
+.bigName{
+  position: absolute;
+  left: 62rpx;
+  top: 60rpx;
+  font-size:36rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
+.bigAddress{
+  position: absolute;
+  left: 61rpx;
+  top: 111rpx;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+}
+.line{
+  width: 100%;
+  height: 21rpx; 
+  background: #c8c9ca;
+}
+.line1{
+  margin-top: 197rpx;
+}
+.line2{
+  margin-top: 40rpx;
+}
+.text{
+  margin-top: 40rpx;
+  width:500rpx;
+  height:43rpx;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+}
+.text1{
+  margin-left: 61rpx;
+  display: block;
+}
+.bigtext{
+  margin-top: 40rpx;
+  width:500rpx;
+  height:43rpx;
+  font-size:29rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:bold;
+  color:rgba(35,24,21,1);
+}
+.box2{
+  position: relative;
+  margin-left: 61rpx;
+  margin-top: 40rpx;
+}
+.chooseOrder{
+  position: absolute;
+  width:205rpx;
+  height:44rpx;
+  background: #54c3f1;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  text-align: center;
+  line-height: 44rpx;
+  border-radius: 44rpx;
+  top:8rpx;
+  left:426rpx;
+}
+.xiline{
+  margin-left: 60rpx;
+  margin-top: 20rpx;
+  width: 630rpx;
+  height: 3rpx;
+}
+.xiline1{
+  background: #c8c9ca;
+}
+.xiline2{
+  background: #58b9e3;
+}
+.listbox{
+  width: 670rpx;
+  height: auto;
+  overflow: hidden;
+  margin-left:45rpx;
+}
+.peopleBox{
+  position:relative;
+  width: 154rpx;
+  height: 190rpx;
+  margin-left: 10rpx;
+  float: left;
+}
+.anzhuangBox{
+  position:relative;
+  width: 154rpx;
+  height: 200rpx;
+  margin-left: 10rpx;
+  float: left;
+}
+.headUrl{
+  position: absolute;
+  width: 88rpx;
+  left: 33rpx;
+  top: 17rpx;
+}
+.anzhuangUrl{
+  position: absolute;
+  width: 98rpx;
+  left: 28rpx;
+  top: 40rpx;
+}
+.peopleBox text{
+  position: absolute;
+  width: 100%;
+  height: 36rpx;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+  line-height:36rpx;
+  text-align: center;
+}
+.anzhuangBox text{
+  position: absolute;
+  width: 100%;
+  height: 36rpx;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+  line-height:36rpx;
+  text-align: center;
+}
+.post{
+  top: 120rpx;
+}
+.post1{
+  top: 150rpx;
+}
+.name{
+  top: 150rpx;
+}
+
+.listBox{
+  position: relative;
+  width: 750rpx;
+  height: 340rpx;
+  top: 60rpx;
+}
+.evaluteBox{
+  position: relative;
+  width: 750rpx;
+  height: 80rpx;
+}
+.evaluteBox .textName{
+  position: relative;
+  left: 45rpx;
+  font-size:25rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(158,158,159,1);
+  line-height:80rpx;
+  display: inline-block;
+}
+.evaluteBox .starBox{
+  position: relative;
+  left: 415rpx;
+  display: inline-block;
+}
+.evaluteBox .star{
+  position: relative;
+  width: 19rpx;
+  margin-left:10rpx;
+}
+.evaluteCont{
+  position:relative;
+  left:60rpx;
+  top:90rpx;
+  width:581rpx;
+  height:132rpx;
+  padding:25rpx;
+  border:4rpx solid #58b9e3;
+  font-size:25rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color: #000;
+}
+.imageBox{
+  position: relative;
+  left: 60rpx;
+  top: 130rpx;
+  width: 630rpx;
+}
+.addImage{
+  position: absolute;
+  margin-left:10px;
+  margin-top:10rpx;
+  width:160rpx;
+  height:119rpx;
+  font-size:22rpx;
+  background: #d1d1d1;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(35,24,21,1);
+  text-align: center;
+  line-height: 119rpx;
+  display: inline-block;
+}
+.evaluteImages{
+  width:160rpx;
+  height:119rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.submitBtn{
+  position: relative;
+  width:180rpx;
+  height:44rpx;
+  background: #54c3f1;
+  left: 455rpx;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  text-align: center;
+  line-height: 44rpx;
+  top:60rpx;
+  border-radius: 44rpx;
+}
+
+
+.container1{
+  position: absolute;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+.bg{
+  position: absolute;
+  left: 0;
+  top:0;
+  width:100%;
+  height:100%;
+  background: #1e1210;
+  opacity:0.8;
+}
+.loginBox{
+  position: absolute;
+  left: 81rpx;
+  top: 303rpx;
+  width:588rpx;
+  height:358rpx;
+  background: #fff;
+}
+.loginTitle{
+  position: absolute;
+  top: 53rpx;
+  width: 100%;
+  height:31rpx;
+  font-size:32rpx;
+  font-family:"FZLTHK--GBK1-0";
+  line-height:32rpx;
+  color:rgba(35,24,21,1);
+  text-align: center;
+}
+.mobileText{
+  position: absolute;
+  left: 75rpx;
+  top: 134rpx;
+  width: 200rpx;
+  height:31rpx;
+  font-size:25rpx;
+  font-family:"FZLTHK--GBK1-0";
+  color:rgba(35,24,21,1);
+  letter-spacing: 10rpx;
+}
+.codeText{
+  position: absolute;
+  left: 75rpx;
+  top: 196rpx;
+  width: 200rpx;
+  height:31rpx;
+  font-size:25rpx;
+  font-family:"FZLTHK--GBK1-0";
+  color:rgba(35,24,21,1);
+  letter-spacing: 1rpx;
+}
+.remindText{
+  position: absolute;
+  left:0rpx;
+  top:134rpx;
+  width:588rpx;
+  height:31rpx;
+  font-size:25rpx;
+  font-family:"FZLTHK--GBK1-0";
+  color:rgba(35,24,21,1);
+  letter-spacing:4rpx;
+  text-align: center;
+}
+input{
+  position: absolute;
+  left: 219rpx;
+  width:297rpx;
+  min-height:36rpx;
+  border: 2rpx solid #231815;
+  font-size:25rpx;
+  font-family:FZLTHK--GBK1-0;
+  color: #000;
+  height:36rpx;
+  line-height: 36rpx;
+}
+.mobile{
+  top: 133rpx;
+}
+.code{
+  top: 196rpx;
+}
+
+.codeBtn{
+  position: absolute;
+  left: 387rpx;
+  top: 199rpx;
+  width:129rpx;
+  height:36rpx;
+  background: #22ac38;
+  font-size:22rpx;
+  font-family:FZLTHK--GBK1-0;
+  color: #fff;
+  line-height: 36rpx;
+  text-align: center;
+  z-index: 100;
+}
+.Btn{
+  position: absolute;
+  bottom: 0rpx;
+  width:588rpx;
+  height:72rpx;
+  font-size:25rpx;
+  font-family:FZLTHK--GBK1-0;
+  text-align: center;
+  line-height: 72rpx;
+  border-top: 5rpx solid #c8c9ca;
+}
+.quxiaoBtn{
+  left: 0rpx;
+  color:rgba(35,24,21,1);
+}
+.querenBtn{
+  left: 294rpx;
+  color:rgba(30,170,57,1);
+}
+button{
+  border-radius: 0rpx;
+}

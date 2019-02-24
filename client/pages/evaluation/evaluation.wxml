@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<scroll-view scroll-y class="container" wx:if="{{!evaluteSuccess}}">
+  <image class='headImg' src='/images/title.png'></image>
+  <text class='bigName'>{{myName}}</text>
+  <text class='bigAddress'>{{myAddress}}</text>
+  <view class='line line1'></view>
+  <text class='text1 bigtext text'>满意度调查</text>
+  <view class='xiline xiline1'></view>
+  <view class='listBox'>
+    <view class='{{item.name}} evaluteBox' wx:for="{{evaluteList}}">
+      <view class='starBox'>
+        <image data-star='1' data-index='{{item.index}}' bindtap='chooseStar' class='star' src='{{item.starNumber<1?"/images/star2.png":"/images/star1.png"}}' mode='widthFix'></image>
+        <image data-star='2' data-index='{{item.index}}' bindtap='chooseStar' class='star' src='{{item.starNumber<2?"/images/star2.png":"/images/star1.png"}}' mode='widthFix'></image>
+        <image data-star='3' data-index='{{item.index}}' bindtap='chooseStar' class='star' src='{{item.starNumber<3?"/images/star2.png":"/images/star1.png"}}' mode='widthFix'></image>
+        <image data-star='4' data-index='{{item.index}}' bindtap='chooseStar' class='star' src='{{item.starNumber<4?"/images/star2.png":"/images/star1.png"}}' mode='widthFix'></image>
+        <image data-star='5' data-index='{{item.index}}' bindtap='chooseStar' class='star' src='{{item.starNumber<5?"/images/star2.png":"/images/star1.png"}}' mode='widthFix'></image>
+      </view>
+      <text class='textName'>{{item.textName}}</text>
+    </view>
+  </view>
+  <textarea bindinput='changeInput' class='evaluteCont' placeholder='输入点评内容' placeholder-class='evaluteContPlace'></textarea>
+  <view class='imageBox'>
+    <block wx:for="{{imageList}}">
+      <image class='evaluteImages' src='{{item.src}}'></image>
+    </block>
+    <view class='addImage' bindtap='chooseImage'>点击添加照片</view>
+    <view class='submitBtn' bindtap='submit'>确认提交</view>
+  </view>
+</scroll-view>
+
+<view class="container1" wx:else>
+  <view class='bg'></view>
+  <view class='loginBox'>
+    <text class='loginTitle' style='color:#1EAA39'>提交成功</text>
+    <text class='remindText'>感谢您对于本次服务的评价。</text>
+    <view bindtap='return' class='returnBtn Btn'>返 回 安 装 计 划 首 页</view>
+  </view>
+</view>
+
+<view class='bar_box'>
+  <image class='barBg' src='/images/barBg.png'></image>
+  <view class='indexBox' bindtap='goIndex'>
+    <image class="bar bar1" src="/images/{{bar1 ? 'barBg1_2' : 'barBg1_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText1 {{bar1 ? 'barText_2' : 'barText_1'}}">安装计划</text>
+  </view>
+  <view class='repairBox' bindtap='goRepair'>
+    <image class="bar bar2" src="/images/{{bar2 ? 'baBgr2_2' : 'barBg2_1'}}.png" mode='widthFix'></image>
+    <text class="barText barText2 {{bar2 ? 'barText_2' : 'barText_1'}}">报修</text>
+  </view>
+</view>
